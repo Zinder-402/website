@@ -1,0 +1,55 @@
+header {text-align : center;
+			padding : 20px;
+			border : solid 4px;
+			background-image : url('photos/zw-banner.jpg');
+			background-size : 400px;
+			background-size : contain;
+			background-repeat : no-repeat;
+			background-position : center;
+			background-color : #4A7A4E;
+			height : 200px;}
+body {background-color : #BBBBBB;
+			color : black;
+			font-family : Arial, sans-serif;
+			margin : 0;
+			padding : 0;}
+section {margin-bottom: 40px;}
+footer {margin-top: 40px;
+			font-size: 0.8em;
+			text-align: center;}
+nav {display : flex;
+			flex-wrap : wrap;
+			justify-content : center;
+			margin-left : -30px;
+			font-size : min(2.5vw, 16px);
+			padding : 4px;
+			margin-bottom: 10px;}
+nav li {display : inline;
+			padding : 0;}
+nav a {margin: 0 5px;
+			text-decoration: none;
+			color: #4A7A4E;
+			font-weight : bold;
+			padding : 5px;
+			border : solid 1px;
+			border-radius : 8px;
+			background-color : #DDDDDD;}
+nav a:hover {text-decoration: underline;}
+.photo-size {width : 100%;
+			height : auto;
+			display : block;
+			padding : 10px;} 
+h1 {font-size : 50px;
+			font-weight : lighter;
+			font-family : Candara;
+			font-style : italic;
+			text-align : center;
+			text-decoration : underline;}
+h2 {font-size : 20px;
+			text-decoration : underline;}
+h3 {display : inline-block;
+			border : 0.5px solid black;
+			padding : 2px;
+			text-align : left;}
+figure {padding : 40px 10px 0;}
+a {color : #4A7A4E;}
